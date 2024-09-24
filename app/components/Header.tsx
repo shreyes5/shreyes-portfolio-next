@@ -1,11 +1,12 @@
 // app/components/Header.tsx
 import Link from "next/link"
+import styles from "../styles/Header.module.css" // Import the CSS module
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <nav>
-        <ul>
+        <ul className={styles.nav}>
           <li>
             <Link href="/">Home</Link>
           </li>
