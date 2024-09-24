@@ -2,9 +2,8 @@
 .header {
     position: sticky;
     top: 0;
-    background-color: #fff; /* Change to your preferred background color */
+    background-color: #07b2f0; /* Change to your preferred background color */
     padding: 10px 20px;     /* Adjust padding as needed */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
     z-index: 1000;          /* Ensure it stays on top */
   }
   
